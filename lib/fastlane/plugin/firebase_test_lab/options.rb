@@ -80,6 +80,7 @@ module Fastlane
                                        description: "extra ios_xc_test_args useful for xcode version ie { xcodeVersion: '10.1' }" \
                                                     "See IosXcTest https://testing.googleapis.com/$discovery/rest?version=v1",
                                        default_value: {},
+                                       type: Hash,
                                        optional: true),
         ]
       end
